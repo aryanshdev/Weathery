@@ -1,0 +1,126 @@
+:root {
+    --primaryBackgroundColor: #0A0E21;
+    --primaryForegroundColor: #1D1E33;
+    --secondaryForegroundColor: #111328;
+    --primaryTextColor: Colors.white;
+    --secondaryTextColor: #8D8E98;
+    --buttonColor: #EB1555;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    font-size: larger;
+}
+
+#main {
+    background-color: var(--primaryBackgroundColor);
+    height: min-content;
+    text-align: center;
+    padding: 0% 5%;
+
+}
+
+.mainhead {
+    font-weight: 600;
+}
+
+.caption {
+    font: 400;
+    font-size: large;
+    color: var(--secondaryTextColor);
+}
+
+.navbar {
+    padding: 0;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.navbar-dark {
+    background: var(--primaryBackgroundColor);
+}
+
+.nav-link {
+    font-size: large;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.bg_div {
+    background-color: var(--primaryForegroundColor);
+    padding: 5%;
+    border-radius: 15px;
+    width: fit-content;
+    text-align: start;
+}
+
+button {
+    background-color: var(--buttonColor);
+    padding: 2% 3%;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+
+#main .row {
+    padding: 0;
+    margin: 0%;
+    height: 100%;
+}
+
+#main .col {
+    display: flex;
+}
+
+#about {
+    background-color: var(--secondaryForegroundColor);
+    height: fit-content;
+    padding: 5% 5%;
+    text-align: center;
+}
+
+#about .col {
+    text-align: center;
+    display: block;
+    margin-bottom: 5%;
+}
+
+#download {
+    background-color: var(--secondaryForegroundColor);
+    height: fit-content;
+    padding: 5% 5%;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--primaryBackgroundColor);
+    padding: 2.5% 5% 2% 5%;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    display: block;
+    margin: 2% 0;
+    color: var(--secondaryTextColor);
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Privacy-Page */
+
+.privacy-page-body {
+    background-color: var(--secondaryForegroundColor);
+    height: 100vh;
+}
